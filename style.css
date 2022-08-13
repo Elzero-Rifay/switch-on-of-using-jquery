@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+}
+.the-div1 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 20px;
+  left: 390px;
+  background-size: cover;
+  /* border: 1px solid green; */
+  background-image: url(images/of.png);
+
+  background-size: 450px;
+  background-repeat: no-repeat;
+  background-position: 30px 30px;
+}
+
+.the-div2 {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  top: 12px;
+  left: 382px;
+
+  background-size: cover;
+  /* border: 1px solid green; */
+  background-image: url(images/on.png);
+  background-size: 450px;
+  background-repeat: no-repeat;
+  background-position: 30px -30px;
+}
+
+/* button on */
+#on {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(25, 162, 25);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  position: relative;
+  left: 808px;
+  top: -20px;
+}
+
+#on:hover {
+  cursor: pointer;
+  font-size: 23px;
+  border: 2px solid white;
+}
+
+/* button 2 */
+#of {
+  width: 80px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  position: relative;
+  top: -20px;
+  left: 327px;
+}
+
+#of:hover {
+  cursor: pointer;
+  font-size: 23px;
+  border: 2px solid white;
+}
